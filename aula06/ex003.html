@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(114, 134, 224);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(179, 179, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+     
+       var n1 = Number(window.prompt('Digite um número: ')) // String
+       var n2 = Number(window.prompt('Digite outro número: ')) // String
+       var s = n1 + n2
+    window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`) //utilizar a crase ` para interpolação
+
+       // (number + number)  para adição
+      // (string + string) para concatenação
+      /* string para numero
+      Number.parseInt(n) para número inteiro
+      Number.parseFloat(n) para número com virgula
+      Number(n) se vira com qualquer um
+
+      Numero para string
+      String(n)
+      n.toString()
+
+      var s = 'Javascript'
+      'Eu estou aprendendo s' não faz interpolação
+      'Eu estou aprendendo ' + s usa concatenação
+      `Eu estou aprendendo ${s}` usa template string , se chama placeholder
+
+      Formatando String
+      var s = 'Javascript'
+      s.length   quantos caracteres a string tem
+      s.toUpperCase() tudo para "MAIÚSCULAS"
+      s.toLowerCase() tudo para "minúculas "     */
+    </script>
+    
+</body>
+</html>
